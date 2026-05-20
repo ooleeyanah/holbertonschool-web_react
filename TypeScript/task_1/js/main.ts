@@ -32,4 +32,5 @@ interface printTeacherFunction {
     lastName: string): string;
 }
 
-console.log(printTeacher("John", "Doe"));
+//console.log(printTeacher("John", "Doe"));
+

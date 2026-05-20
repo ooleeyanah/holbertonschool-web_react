@@ -34,3 +34,5 @@ studentsList.forEach((student: Student) => {
 
 table.appendChild(tbody);
 document.body.appendChild(table);
+
+
