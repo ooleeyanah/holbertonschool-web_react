@@ -20,3 +20,16 @@ const director1: Directors = {
 };
 console.log(director1);
 */
+function printTeacher(firstName: string, lastName: string){
+    if (firstName.length > 0){
+        return (firstName.charAt(0) + ". " + (lastName));
+        //console.log(firstName.charAt(0) + ". " + (lastName));
+    }
+}
+
+interface printTeacherFunction {
+    (firstName: string,
+    lastName: string): string;
+}
+
+console.log(printTeacher("John", "Doe"));
