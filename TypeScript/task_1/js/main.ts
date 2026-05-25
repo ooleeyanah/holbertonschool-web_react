@@ -1,3 +1,4 @@
+//task 1
 interface Teacher {
     readonly firstName: string;
     readonly lastName: string;
@@ -6,7 +7,7 @@ interface Teacher {
     location: string;
     [propName: string]: any;
 }
-
+//task 2
 interface Directors extends Teacher {
     numberOfReports: number;
 }
@@ -20,6 +21,7 @@ const director1: Directors = {
 };
 console.log(director1);
 */
+//task 3
 function printTeacher(firstName: string, lastName: string){
     if (firstName.length > 0){
         return (firstName.charAt(0) + ". " + (lastName));
@@ -33,7 +35,7 @@ interface printTeacherFunction {
 }
 
 //console.log(printTeacher("John", "Doe"));
-
+//task 4
 interface StudentClassInterface {
   workOnHomework(): string;
   displayName(): string;
